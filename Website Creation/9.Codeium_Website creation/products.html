@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Our Store</h1>
+    </header>
+    <section id="products">
+        <!-- Product 1 -->
+        <div class="product">
+            <img src="teslatruck.jpg" alt="Tesla Truck">
+            <p>Tesla Truck</p>
+            <p>Description of Tesla Truck</p>
+            <p>Price: $XXX</p>
+            <button onclick="markSold(this)">Buy</button>
+            <p class="sold">SOLD</p>
+        </div>
+        <!-- Product 2 -->
+        <div class="product">
+            <img src="minicooper.jpg" alt="Mini Cooper">
+            <p>Mini Cooper</p>
+            <p>Description of Mini Cooper</p>
+            <p>Price: $XXX</p>
+            <button onclick="markSold(this)">Buy</button>
+            <p class="sold">SOLD</p>
+        </div>
+    </section>
+    <nav>
+        <button onclick="window.location='index.html';">Home</button>
+        <button onclick="window.location='about.html';">About</button>
+    </nav>
+    <script src="script.js"></script>
+</body>
+</html>

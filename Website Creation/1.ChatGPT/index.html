@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sight Impaired Store - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Navigate between webpages with voice commands.</h1>
+        <p class="braille">⠝⠁⠧⠝⠊⠧⠑⠊⠍⠑ ⠃⠑⠮⠻⠑⠊⠌ ⠽⠁⠍⠑⠝⠑⠞ ⠿⠑⠧⠑⠊⠧⠑⠎</p>
+        <p>Available commands:</p>
+        <ul>
+            <li>"Go to product page"</li>
+            <li>"Go to about page"</li>
+        </ul>
+        <button id="voiceButton" onclick="activateVoiceRecognition('home')">Activate Voice Commands</button>
+        <button class="productButton" onclick="navigateTo('products')">Products</button>
+        <button class="aboutButton" onclick="navigateTo('about')">About</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

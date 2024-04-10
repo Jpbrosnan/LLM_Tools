@@ -1,0 +1,43 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sight Impaired Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    </head>
+    <body>
+    
+    <header>
+    <h1>Sight Impaired Store</h1>
+    </header>
+    
+    <p id="english">Navigate between webpages with voice commands.</p>
+    
+    <p id="braille">
+    ⠠⠝⠁⠧⠊⠛⠁⠞⠑ ⠃⠑⠞⠺⠑⠑⠝ ⠺⠑⠃⠏⠁⠛⠑⠎ ⠺⠊⠞⠓ ⠧⠕⠊⠉⠑ ⠉⠕⠍⠍⠁⠝⠙⠎⠂
+    </p>
+    
+    <p id="commands">
+    Say "Go to home page" to return to this page.<br>
+    Say "Go to products page" to see our items.<br>
+    Say "Go to about page" to learn more about us.
+    </p>
+    
+    <button id="productsButton">Products</button>
+    
+    <button id="aboutButton">About</button>
+    
+    <script>
+    document.getElementById("productsButton").onclick = function() {
+    location.href = "products.html";
+    }
+    document.getElementById("aboutButton").onclick = function() {
+    location.href = "about.html";
+  }
+</script>
+
+</body>
+</html>

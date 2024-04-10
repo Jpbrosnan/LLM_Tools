@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Products - Sight Impaired Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Our Store</h1>
+        <nav>
+            <button onclick="window.location='index.html';">Home</button>
+            <button onclick="window.location='about.html';">About</button>
+        </nav>
+    </header>
+    <main>
+        <article class="product">
+            <img src="teslatruck.jpg" alt="Tesla Truck">
+            <h2>Tesla Truck</h2>
+            <p>Revolutionary electric truck offering unmatched performance.</p>
+            <p>Price: $50,000</p>
+            <button class="buy-button" onclick="markSold(this)">Buy Now</button>
+            <span class="sold-out"></span>
+        </article>
+        <article class="product">
+            <img src="minicooper.jpg" alt="Mini Cooper">
+            <h2>Mini Cooper</h2>
+            <p>Compact, efficient, and stylish - the ideal city car.</p>
+            <p>Price: $20,000</p>
+            <button class="buy-button" onclick="markSold(this)">Buy Now</button>
+            <span class="sold-out"></span>
+        </article>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

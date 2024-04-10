@@ -1,0 +1,45 @@
+
+body {
+font-family: Arial, sans-serif;
+}
+
+header {
+background-color: lightblue;
+padding: 20px;
+}
+
+h1, h2 {
+color: navy;
+}
+
+#store {
+border: 3px solid navy;
+padding: 20px;
+}
+
+.product {
+border: 1px solid lightgray;
+margin-bottom: 20px;
+padding: 10px;
+}
+
+img {
+width: 200px;
+float: left;
+margin-right: 20px;
+}
+
+button {
+background-color: navy;
+color: white;
+padding: 10px 20px;
+border: none;
+}
+
+button:hover {
+opacity: 0.8;
+}
+
+#braille {
+font-family: sans-serif;
+}

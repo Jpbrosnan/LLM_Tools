@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sight Impaired Store - Products</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Our Store</h1>
+        <div class="store-section">
+            <div class="product" id="product1">
+                <img src="teslatruck.jpg" alt="Tesla Truck">
+                <h2>Tesla Truck</h2>
+                <p class="description">An electric pickup truck with innovative features and advanced technology.</p>
+                <p class="price">$80,000</p>
+                <button onclick="handleProductClick('product1')">Buy Now</button>
+            </div>
+            <div class="product" id="product2">
+                <img src="minicooper.jpg" alt="Mini Cooper">
+                <h2>Mini Cooper</h2>
+                <p class="description">A stylish compact car known for its fun driving experience and iconic design.</p>
+                <p class="price">$25,000</p>
+                <button onclick="handleProductClick('product2')">Buy Now</button>
+            </div>
+        </div>
+        <button id="voiceButton" onclick="activateVoiceRecognition('products')">Activate Voice Commands</button>
+        <button class="homeButton" onclick="navigateTo('index')">Home</button>
+        <button class="aboutButton" onclick="navigateTo('about')">About</button>
+        <p>Available commands:</p>
+        <ul>
+            <li>"Buy Tesla Truck"</li>
+            <li>"Buy Mini Cooper"</li>
+            <li>"Go to Home page"</li>
+            <li>"Go to About page"</li>
+        </ul>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
+
