@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px; /* Increase the font size */
+    line-height: 1.5; /* Increase the line height */
+    color: #333; /* Darken the text color to improve contrast */
+}
+
+h1 {
+    text-align: center;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.soldText {
+    display: none;
+    color: red;
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% { opacity: 0; }
+}

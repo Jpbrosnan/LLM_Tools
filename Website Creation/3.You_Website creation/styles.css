@@ -1,6 +1,5 @@
 body {
     font-family: Arial, sans-serif;
-    color: #000; /* Ensure sufficient contrast with the background */
 }
 
 .product {
@@ -12,7 +11,7 @@ body {
 button {
     background-color: #4CAF50;
     border: none;
-    color: #000000;
+    color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -20,10 +19,4 @@ button {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-}
-
-/* Increase contrast for better readability */
-button:hover,
-button:focus {
-    background-color: #2E8B57;
 }

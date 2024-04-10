@@ -1,0 +1,74 @@
+body {
+    background-color: #FFFFFF;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Increase contrast for links */
+  a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  a:hover,
+  a:active,
+  a:visited {
+    color: #0055b3;
+  }
+
+header {
+    background-color: #FFFFFF;
+    color: #333333;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.sold {
+    text-decoration: line-through;
+}
+
+.sold-text {
+    color: #f00;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.sold-button {
+    background-color: #f00;
+    color: #fff;
+}

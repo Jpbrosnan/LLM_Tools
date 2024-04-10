@@ -10,7 +10,7 @@
   }
   
   a {
-    color: #000A14;
+    color: #007bff;
     text-decoration: none;
   }
   
@@ -19,7 +19,7 @@
   }
   
   header {
-    background-color: #4D4D4D;
+    background-color: #007bff;
     color: white;
     text-align: center;
     padding: 10px;
@@ -45,11 +45,11 @@
   }
   
   nav ul li a:hover {
-    color: #000A14;
+    color: #007bff;
   }
   
   .voice-command-button {
-    background-color: #4D4D4D;
+    background-color: #007bff;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -59,7 +59,7 @@
   }
   
   .voice-command-button:hover {
-    background-color: #000A14;
+    background-color: #0056b3;
   }
   
   .container {
@@ -89,7 +89,7 @@
   }
   
   .product .buy-button {
-    background-color: #4D4D4D;
+    background-color: #007bff;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -98,7 +98,7 @@
   }
   
   .product .buy-button:hover {
-    background-color: #4D4D4D;
+    background-color: #0056b3;
   }
   
   .sold {

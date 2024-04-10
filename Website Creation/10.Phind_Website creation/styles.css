@@ -36,8 +36,8 @@ main {
 }
 
 button {
-    background-color: #CCCCCC;
-    color: #383838;
+    background-color: #007BFF;
+    color: white;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
@@ -45,7 +45,7 @@ button {
 }
 
 button:hover {
-    background-color: #545454;
+    background-color: #0056b3;
 }
 
 @keyframes flash {
