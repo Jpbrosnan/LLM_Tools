@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onclick="stopVoiceDescription()">
+    <div class="product-container">
+        <div class="product" id="product1">
+            <img src="tesla_truck.jpg" alt="Tesla Truck">
+            <h2>Tesla Truck</h2>
+            <p>An electric pickup truck with innovative features and advanced technology.</p>
+            <p>Price: $80,000</p>
+            <button onclick="markAsSold('product1')">Buy Now</button>
+        </div>
+        <div class="product" id="product2">
+            <img src="mini_cooper.jpg" alt="Mini Cooper">
+            <h2>Mini Cooper</h2>
+            <p>A stylish compact car known for its fun driving experience and iconic design.</p>
+            <p>Price: $25,000</p>
+            <button onclick="markAsSold('product2')">Buy Now</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
